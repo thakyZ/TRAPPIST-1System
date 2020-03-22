@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_WorldConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Settings xsi:type="MyObjectBuilder_SessionSettings">
+    <GameMode>Survival</GameMode>
+    <InventorySizeMultiplier>3</InventorySizeMultiplier>
+    <BlocksInventorySizeMultiplier>1</BlocksInventorySizeMultiplier>
+    <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
+    <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
+    <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
+    <OnlineMode>OFFLINE</OnlineMode>
+    <MaxPlayers>4</MaxPlayers>
+    <MaxFloatingObjects>56</MaxFloatingObjects>
+    <MaxBackupSaves>5</MaxBackupSaves>
+    <MaxGridSize>50000</MaxGridSize>
+    <MaxBlocksPerPlayer>100000</MaxBlocksPerPlayer>
+    <TotalPCU>100000</TotalPCU>
+    <PiratePCU>50000</PiratePCU>
+    <MaxFactionsCount>0</MaxFactionsCount>
+    <BlockLimitsEnabled>GLOBALLY</BlockLimitsEnabled>
+    <EnableRemoteBlockRemoval>true</EnableRemoteBlockRemoval>
+    <EnvironmentHostility>SAFE</EnvironmentHostility>
+    <AutoHealing>true</AutoHealing>
+    <EnableCopyPaste>true</EnableCopyPaste>
+    <WeaponsEnabled>true</WeaponsEnabled>
+    <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
+    <ThrusterDamage>true</ThrusterDamage>
+    <CargoShipsEnabled>false</CargoShipsEnabled>
+    <EnableSpectator>true</EnableSpectator>
+    <WorldSizeKm>0</WorldSizeKm>
+    <RespawnShipDelete>false</RespawnShipDelete>
+    <ResetOwnership>false</ResetOwnership>
+    <WelderSpeedMultiplier>2</WelderSpeedMultiplier>
+    <GrinderSpeedMultiplier>2</GrinderSpeedMultiplier>
+    <RealisticSound>true</RealisticSound>
+    <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
+    <PermanentDeath>false</PermanentDeath>
+    <AutoSaveInMinutes>5</AutoSaveInMinutes>
+    <EnableSaving>false</EnableSaving>
+    <InfiniteAmmo>false</InfiniteAmmo>
+    <EnableContainerDrops>true</EnableContainerDrops>
+    <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
+    <ProceduralDensity>0.35</ProceduralDensity>
+    <ProceduralSeed>0</ProceduralSeed>
+    <DestructibleBlocks>true</DestructibleBlocks>
+    <EnableIngameScripts>true</EnableIngameScripts>
+    <ViewDistance>20000</ViewDistance>
+    <EnableToolShake>true</EnableToolShake>
+    <VoxelGeneratorVersion>4</VoxelGeneratorVersion>
+    <EnableOxygen>true</EnableOxygen>
+    <EnableOxygenPressurization>true</EnableOxygenPressurization>
+    <Enable3rdPersonView>true</Enable3rdPersonView>
+    <EnableEncounters>false</EnableEncounters>
+    <EnableConvertToStation>true</EnableConvertToStation>
+    <StationVoxelSupport>false</StationVoxelSupport>
+    <EnableSunRotation>true</EnableSunRotation>
+    <EnableRespawnShips>true</EnableRespawnShips>
+    <ScenarioEditMode>false</ScenarioEditMode>
+    <Scenario>false</Scenario>
+    <CanJoinRunning>false</CanJoinRunning>
+    <PhysicsIterations>8</PhysicsIterations>
+    <SunRotationIntervalMinutes>60</SunRotationIntervalMinutes>
+    <EnableJetpack>true</EnableJetpack>
+    <SpawnWithTools>false</SpawnWithTools>
+    <StartInRespawnScreen>false</StartInRespawnScreen>
+    <EnableVoxelDestruction>true</EnableVoxelDestruction>
+    <MaxDrones>5</MaxDrones>
+    <EnableDrones>true</EnableDrones>
+    <EnableWolfs>false</EnableWolfs>
+    <EnableSpiders>false</EnableSpiders>
+    <FloraDensityMultiplier>1</FloraDensityMultiplier>
+    <EnableStructuralSimulation>false</EnableStructuralSimulation>
+    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
+    <BlockTypeLimits>
+      <dictionary />
+    </BlockTypeLimits>
+    <EnableScripterRole>false</EnableScripterRole>
+    <MinDropContainerRespawnTime>5</MinDropContainerRespawnTime>
+    <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
+    <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
+    <EnableSubgridDamage>false</EnableSubgridDamage>
+    <SyncDistance>3000</SyncDistance>
+    <ExperimentalMode>true</ExperimentalMode>
+    <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
+    <EnableVoxelHand>true</EnableVoxelHand>
+    <RemoveOldIdentitiesH>0</RemoveOldIdentitiesH>
+    <TrashRemovalEnabled>true</TrashRemovalEnabled>
+    <StopGridsPeriodMin>15</StopGridsPeriodMin>
+    <TrashFlagsValue>7706</TrashFlagsValue>
+    <AFKTimeountMin>0</AFKTimeountMin>
+    <BlockCountThreshold>20</BlockCountThreshold>
+    <PlayerDistanceThreshold>500</PlayerDistanceThreshold>
+    <OptimalGridCount>0</OptimalGridCount>
+    <PlayerInactivityThreshold>0</PlayerInactivityThreshold>
+    <PlayerCharacterRemovalThreshold>15</PlayerCharacterRemovalThreshold>
+    <VoxelTrashRemovalEnabled>false</VoxelTrashRemovalEnabled>
+    <VoxelPlayerDistanceThreshold>5000</VoxelPlayerDistanceThreshold>
+    <VoxelGridDistanceThreshold>5000</VoxelGridDistanceThreshold>
+    <VoxelAgeThreshold>24</VoxelAgeThreshold>
+    <EnableResearch>true</EnableResearch>
+    <EnableGoodBotHints>true</EnableGoodBotHints>
+    <OptimalSpawnDistance>900</OptimalSpawnDistance>
+    <EnableAutorespawn>true</EnableAutorespawn>
+    <EnableBountyContracts>true</EnableBountyContracts>
+    <EnableSupergridding>false</EnableSupergridding>
+    <EnableEconomy>true</EnableEconomy>
+    <DepositsCountCoefficient>2</DepositsCountCoefficient>
+    <DepositSizeDenominator>30</DepositSizeDenominator>
+    <HarvestRatioMultiplier>1</HarvestRatioMultiplier>
+    <TradeFactionsCount>15</TradeFactionsCount>
+    <StationsDistanceInnerRadius>10000000</StationsDistanceInnerRadius>
+    <StationsDistanceOuterRadiusStart>10000000</StationsDistanceOuterRadiusStart>
+    <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
+    <EconomyTickInSeconds>1200</EconomyTickInSeconds>
+    <SimplifiedSimulation>false</SimplifiedSimulation>
+  </Settings>
+  <Mods>
+    <ModItem FriendlyName="[VSI] Recolorable Thrusters">
+      <Name>1354870812.sbm</Name>
+      <PublishedFileId>1354870812</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="[VSI] Ore Deposit Scanner">
+      <Name>1978894018.sbm</Name>
+      <PublishedFileId>1978894018</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="[NEW VERSION AVALIABLE] Maintenance Tunnels">
+      <Name>794721226.sbm</Name>
+      <PublishedFileId>794721226</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="[Mexpex] Heavy Mining Drill [stable/dev]">
+      <Name>475375953.sbm</Name>
+      <PublishedFileId>475375953</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="[CRD] Scaffolding Repack">
+      <Name>1818289422.sbm</Name>
+      <PublishedFileId>1818289422</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Working Cockpit_IR">
+      <Name>1722002677.sbm</Name>
+      <PublishedFileId>1722002677</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Wheels With Magnetic suspension">
+      <Name>1990546144.sbm</Name>
+      <PublishedFileId>1990546144</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Wheels">
+      <Name>1842651359.sbm</Name>
+      <PublishedFileId>1842651359</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Weapon Rack">
+      <Name>1139587813.sbm</Name>
+      <PublishedFileId>1139587813</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Tiered Thrusters Overhaul">
+      <Name>1545345896.sbm</Name>
+      <PublishedFileId>1545345896</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Text HUD API">
+      <Name>758597413.sbm</Name>
+      <PublishedFileId>758597413</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Super Tiered Thrusters from T1 to T5">
+      <Name>1937341783.sbm</Name>
+      <PublishedFileId>1937341783</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Spacebar Bridge Consoles">
+      <Name>1764651991.sbm</Name>
+      <PublishedFileId>1764651991</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Smarter Suit">
+      <Name>1516827689.sbm</Name>
+      <PublishedFileId>1516827689</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Small Ship Mega Mod Pack [100% DX-11 Ready]">
+      <Name>305329302.sbm</Name>
+      <PublishedFileId>305329302</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Small Ship Ladders Mod">
+      <Name>1669289217.sbm</Name>
+      <PublishedFileId>1669289217</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Small Advanced Rotor">
+      <Name>381591639.sbm</Name>
+      <PublishedFileId>381591639</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Sleep Mod">
+      <Name>1780376231.sbm</Name>
+      <PublishedFileId>1780376231</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Shaostoul - Solar Panels - Reworked">
+      <Name>1674257102.sbm</Name>
+      <PublishedFileId>1674257102</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="S - HangarDoor - DX11">
+      <Name>531851337.sbm</Name>
+      <PublishedFileId>531851337</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Rotary Airlock">
+      <Name>1359954841.sbm</Name>
+      <PublishedFileId>1359954841</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="RiverX Ramp">
+      <Name>902152309.sbm</Name>
+      <PublishedFileId>902152309</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="RichHudMaster">
+      <Name>1965654081.sbm</Name>
+      <PublishedFileId>1965654081</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Reworked Armor Ramps Mod~(DX-11 Ready)">
+      <Name>490036307.sbm</Name>
+      <PublishedFileId>490036307</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Projector Preview - miniature blueprint display &amp; damage status">
+      <Name>517675282.sbm</Name>
+      <PublishedFileId>517675282</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="PowerLines Fixed">
+      <Name>1711092925.sbm</Name>
+      <PublishedFileId>1711092925</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Personal Shield Generators">
+      <Name>1330335279.sbm</Name>
+      <PublishedFileId>1330335279</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="PassageIntersections">
+      <Name>946724937.sbm</Name>
+      <PublishedFileId>946724937</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Paradise">
+      <Name>1669459989.sbm</Name>
+      <PublishedFileId>1669459989</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Paint Gun - realistic painting for suvival + special creative features">
+      <Name>500818376.sbm</Name>
+      <PublishedFileId>500818376</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Omicron">
+      <Name>1898681794.sbm</Name>
+      <PublishedFileId>1898681794</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Offset Ladder">
+      <Name>1671151072.sbm</Name>
+      <PublishedFileId>1671151072</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="OCD - Compact Tanks - V2 balanced - 2 New tanks!">
+      <Name>810329357.sbm</Name>
+      <PublishedFileId>810329357</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Neko Gaming Faction Icon">
+      <Name>1996105646.sbm</Name>
+      <PublishedFileId>1996105646</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Nanobot Build and Repair System">
+      <Name>857053359.sbm</Name>
+      <PublishedFileId>857053359</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="More Pistons">
+      <Name>1719832915.sbm</Name>
+      <PublishedFileId>1719832915</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="More Catwalks">
+      <Name>785804182.sbm</Name>
+      <PublishedFileId>785804182</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Moisture Vaporator">
+      <Name>709975763.sbm</Name>
+      <PublishedFileId>709975763</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Modern Beds (CryoChamber)">
+      <Name>1127792978.sbm</Name>
+      <PublishedFileId>1127792978</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Missing Slopes, Blocks And Windows">
+      <Name>1937888528.sbm</Name>
+      <PublishedFileId>1937888528</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Midspace's Configurable Max Ship Speed Mod">
+      <Name>599536562.sbm</Name>
+      <PublishedFileId>599536562</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Micro Programmable Block">
+      <Name>401530181.sbm</Name>
+      <PublishedFileId>401530181</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Mergeless Grated Catwalk">
+      <Name>2025519857.sbm</Name>
+      <PublishedFileId>2025519857</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Mergeless Blocks">
+      <Name>1714034964.sbm</Name>
+      <PublishedFileId>1714034964</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Medieval Planet Complete">
+      <Name>1965520709.sbm</Name>
+      <PublishedFileId>1965520709</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="MA Stackable Wind Turbine">
+      <Name>1668945384.sbm</Name>
+      <PublishedFileId>1668945384</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Life'Tech-Production (KitAssembler)">
+      <Name>1982201842.sbm</Name>
+      <PublishedFileId>1982201842</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Ladder (climbable + use tools/weapons/interactibles on it!)">
+      <Name>600062079.sbm</Name>
+      <PublishedFileId>600062079</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Jericu">
+      <Name>1903620980.sbm</Name>
+      <PublishedFileId>1903620980</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Interior Door">
+      <Name>880622501.sbm</Name>
+      <PublishedFileId>880622501</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="HUD Compass">
+      <Name>1469072169.sbm</Name>
+      <PublishedFileId>1469072169</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="HoverEngine">
+      <Name>1225107070.sbm</Name>
+      <PublishedFileId>1225107070</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="High-power Spotlight">
+      <Name>1204806594.sbm</Name>
+      <PublishedFileId>1204806594</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Hacking Computer v3">
+      <Name>728555954.sbm</Name>
+      <PublishedFileId>728555954</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Gauge's Grid Garage">
+      <Name>1893742731.sbm</Name>
+      <PublishedFileId>1893742731</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="First Aid Station (No Respawn)">
+      <Name>1962611090.sbm</Name>
+      <PublishedFileId>1962611090</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Fay - Lightweight Interior Block Slabs">
+      <Name>1237811942.sbm</Name>
+      <PublishedFileId>1237811942</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Energy Shields">
+      <Name>484504816.sbm</Name>
+      <PublishedFileId>484504816</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Encased Gyroscope with Research Tree Integration">
+      <Name>340933439.sbm</Name>
+      <PublishedFileId>340933439</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Elite Sensor - Fixed">
+      <Name>1386092385.sbm</Name>
+      <PublishedFileId>1386092385</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="EDB - Expanded Decorative Blocks by UOH">
+      <Name>1982603221.sbm</Name>
+      <PublishedFileId>1982603221</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Demus">
+      <Name>1813330640.sbm</Name>
+      <PublishedFileId>1813330640</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Defense Shields - v1.9(77)">
+      <Name>1365616918.sbm</Name>
+      <PublishedFileId>1365616918</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Decoration_Collection_IR">
+      <Name>1914111034.sbm</Name>
+      <PublishedFileId>1914111034</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Dark Mechanicus - Marauder Cockpit">
+      <Name>1156193308.sbm</Name>
+      <PublishedFileId>1156193308</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Dark Mechanicus - ARCM Cockpit[Updated]">
+      <Name>1170675940.sbm</Name>
+      <PublishedFileId>1170675940</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Daily Needs Survival Kit  - Survival Needs for Space">
+      <Name>1608841667.sbm</Name>
+      <PublishedFileId>1608841667</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Conveyor Hinges - transfer items flexibly">
+      <Name>385778606.sbm</Name>
+      <PublishedFileId>385778606</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Conveyor Air Vent - full sized block (and slope!)">
+      <Name>410678202.sbm</Name>
+      <PublishedFileId>410678202</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Connectors + Collectors">
+      <Name>1736785358.sbm</Name>
+      <PublishedFileId>1736785358</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Concrete Tool - placing voxels in survival">
+      <Name>396679430.sbm</Name>
+      <PublishedFileId>396679430</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Compact Antenna with Research Tree Integration">
+      <Name>340298930.sbm</Name>
+      <PublishedFileId>340298930</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Camera Panning - rotate camera view (+reset 1st person character view)">
+      <Name>806331071.sbm</Name>
+      <PublishedFileId>806331071</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="BuildInfo (extra block&amp;terminal info, air leak finder)">
+      <Name>514062285.sbm</Name>
+      <PublishedFileId>514062285</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Build Vision 2.4.1">
+      <Name>1697184408.sbm</Name>
+      <PublishedFileId>1697184408</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Block Combinations V2">
+      <Name>1117772678.sbm</Name>
+      <PublishedFileId>1117772678</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Blast Door Sections Retextured">
+      <Name>1574837911.sbm</Name>
+      <PublishedFileId>1574837911</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Battle Cannons and Turrets">
+      <Name>1139824606.sbm</Name>
+      <PublishedFileId>1139824606</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Azimuth Complete Mega Mod Pack~(DX-11 Ready)">
+      <Name>472832143.sbm</Name>
+      <PublishedFileId>472832143</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Axebeard's Greebles">
+      <Name>1976348140.sbm</Name>
+      <PublishedFileId>1976348140</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Automatic Ramp_IR">
+      <Name>1500959052.sbm</Name>
+      <PublishedFileId>1500959052</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Automatic Ore Pickup">
+      <Name>657749341.sbm</Name>
+      <PublishedFileId>657749341</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="AutoCloseDoors">
+      <Name>1843256487.sbm</Name>
+      <PublishedFileId>1843256487</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Fix: AdvancedDoor opening/closing in construction stage">
+      <Name>1735091878.sbm</Name>
+      <PublishedFileId>1735091878</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Attachments - large to small grid without limits!">
+      <Name>516770964.sbm</Name>
+      <PublishedFileId>516770964</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Armor Ramps &amp; Panels Mod Pack">
+      <Name>1481738859.sbm</Name>
+      <PublishedFileId>1481738859</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="AQD - Conveyor Expansion">
+      <Name>1864380341.sbm</Name>
+      <PublishedFileId>1864380341</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="AQD - Armored Thrusters">
+      <Name>1810920525.sbm</Name>
+      <PublishedFileId>1810920525</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="AQD - Armor Expansion">
+      <Name>1939935505.sbm</Name>
+      <PublishedFileId>1939935505</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Ammo Management Controls">
+      <Name>1423362131.sbm</Name>
+      <PublishedFileId>1423362131</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Aerodynamic Wings - blocks for planet atmosphere">
+      <Name>473571246.sbm</Name>
+      <PublishedFileId>473571246</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Aerodynamic Physics (Deadly Reentry + Drag + Flight)">
+      <Name>571920453.sbm</Name>
+      <PublishedFileId>571920453</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Advanced Welding - detaching and reattaching blocks!">
+      <Name>510790477.sbm</Name>
+      <PublishedFileId>510790477</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Advanced Doors Mod Pack~(DX-11 Ready)">
+      <Name>506964853.sbm</Name>
+      <PublishedFileId>506964853</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="(THYA) Shield HUD Graphics Pack 1%">
+      <Name>540003236.sbm</Name>
+      <PublishedFileId>540003236</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="(DX11)Letters Mod">
+      <Name>298550266.sbm</Name>
+      <PublishedFileId>298550266</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="(DX11) SuperCaps - When your life requires that special kind of power">
+      <Name>302684957.sbm</Name>
+      <PublishedFileId>302684957</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="(DX11) Shutter">
+      <Name>418923288.sbm</Name>
+      <PublishedFileId>418923288</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="(DX11) Boarding Ramp">
+      <Name>487835945.sbm</Name>
+      <PublishedFileId>487835945</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="&quot;Days Without Accident&quot; Sign">
+      <Name>1986130722.sbm</Name>
+      <PublishedFileId>1986130722</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Modular Encounters Spawner">
+      <Name>1521905890.sbm</Name>
+      <PublishedFileId>1521905890</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="NPC Programming Extender">
+      <Name>1400364273.sbm</Name>
+      <PublishedFileId>1400364273</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="[EEM] Exploration Enhancement Mod">
+      <Name>531659576.sbm</Name>
+      <PublishedFileId>531659576</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Modular Encounter Megapack">
+      <Name>1981636554.sbm</Name>
+      <PublishedFileId>1981636554</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Vanilla Planet Crashed Ground Encounters">
+      <Name>1144946326.sbm</Name>
+      <PublishedFileId>1144946326</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Surface Occupation">
+      <Name>1135484957.sbm</Name>
+      <PublishedFileId>1135484957</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Orks!">
+      <Name>1793333265.sbm</Name>
+      <PublishedFileId>1793333265</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="More NPC Encounters V5">
+      <Name>1775277473.sbm</Name>
+      <PublishedFileId>1775277473</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="More NPC Encounters V6 Economy (Server Testing)">
+      <Name>1852898234.sbm</Name>
+      <PublishedFileId>1852898234</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Travelling Merchant | Space and Planetary trader NPC Ships">
+      <Name>1843206463.sbm</Name>
+      <PublishedFileId>1843206463</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Perpetually Perturbed Pirates">
+      <Name>1992435623.sbm</Name>
+      <PublishedFileId>1992435623</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Assertive Bunkers">
+      <Name>1945915721.sbm</Name>
+      <PublishedFileId>1945915721</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Assertive Installations">
+      <Name>1464803311.sbm</Name>
+      <PublishedFileId>1464803311</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Hollow Planet Clean-Up">
+      <Name>950648865.sbm</Name>
+      <PublishedFileId>950648865</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Fast Cargo Ship Spawn Rate">
+      <Name>888485827.sbm</Name>
+      <PublishedFileId>888485827</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Easier Grid Takeovers">
+      <Name>1635515407.sbm</Name>
+      <PublishedFileId>1635515407</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="WeaponCore - 1.0(38)">
+      <Name>1918681825.sbm</Name>
+      <PublishedFileId>1918681825</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="WeaponCore - Replace Vanilla Weapons - MP!!!">
+      <Name>1931509062.sbm</Name>
+      <PublishedFileId>1931509062</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="MA WeaponCore Weapons">
+      <Name>2023664724.sbm</Name>
+      <PublishedFileId>2023664724</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="[Mexpex] MWI - Homing Weaponry (beta)(12)">
+      <Name>1919062467.sbm</Name>
+      <PublishedFileId>1919062467</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="[MEXPEX] MWI - Weapon Pack WeaponCore Edition (beta)(10)">
+      <Name>1920388300.sbm</Name>
+      <PublishedFileId>1920388300</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Battle turrets WeaponCore">
+      <Name>2030507296.sbm</Name>
+      <PublishedFileId>2030507296</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="NorthWind Weapons">
+      <Name>2016817336.sbm</Name>
+      <PublishedFileId>2016817336</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Octo Beam Lasers - MP!!!">
+      <Name>1824060550.sbm</Name>
+      <PublishedFileId>1824060550</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Splitsie HUD for Survival Impossible">
+      <Name>1911126034.sbm</Name>
+      <PublishedFileId>1911126034</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Vanilla Weapon Rebalance">
+      <Name>510492227.sbm</Name>
+      <PublishedFileId>510492227</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Clear Camera Screen">
+      <Name>312777039.sbm</Name>
+      <PublishedFileId>312777039</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Eyes Just Got Clear (1.186 Drugs Are Bad Mkay Update)">
+      <Name>1157796670.sbm</Name>
+      <PublishedFileId>1157796670</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Screen Gunk Be Gone!">
+      <Name>1289657379.sbm</Name>
+      <PublishedFileId>1289657379</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Relative Speeds 240L - 300S">
+      <Name>1982421437.sbm</Name>
+      <PublishedFileId>1982421437</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Easier To See Ore Spawns">
+      <Name>1991220388.sbm</Name>
+      <PublishedFileId>1991220388</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Easier To See Ore Spawns - Omicron">
+      <Name>2029208064.sbm</Name>
+      <PublishedFileId>2029208064</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Crystal Ore and Stones">
+      <Name>578619667.sbm</Name>
+      <PublishedFileId>578619667</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Hydrogen Engine boost">
+      <Name>1860006286.sbm</Name>
+      <PublishedFileId>1860006286</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Light Block Improvements - easy control panel access">
+      <Name>603906728.sbm</Name>
+      <PublishedFileId>603906728</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="AQD - No Armor Edges">
+      <Name>1825460112.sbm</Name>
+      <PublishedFileId>1825460112</PublishedFileId>
+    </ModItem>
+    <ModItem FriendlyName="Sneaky Sounds - Quieter Tools">
+      <Name>1662953858.sbm</Name>
+      <PublishedFileId>1662953858</PublishedFileId>
+    </ModItem>
+  </Mods>
+</MyObjectBuilder_WorldConfiguration>

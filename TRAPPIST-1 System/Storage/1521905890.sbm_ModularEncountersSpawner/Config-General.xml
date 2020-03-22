@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BlockReplacementReference xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ModVersion>1.074</ModVersion>
+  <EnableSpaceCargoShips>true</EnableSpaceCargoShips>
+  <EnablePlanetaryCargoShips>true</EnablePlanetaryCargoShips>
+  <EnableRandomEncounters>true</EnableRandomEncounters>
+  <EnablePlanetaryInstallations>true</EnablePlanetaryInstallations>
+  <EnableBossEncounters>true</EnableBossEncounters>
+  <EnableGlobalNPCWeaponRandomizer>false</EnableGlobalNPCWeaponRandomizer>
+  <EnableLegacySpaceCargoShipDetection>true</EnableLegacySpaceCargoShipDetection>
+  <UseModIdSelectionForSpawning>true</UseModIdSelectionForSpawning>
+  <UseWeightedModIdSelection>true</UseWeightedModIdSelection>
+  <LowWeightModIdSpawnGroups>10</LowWeightModIdSpawnGroups>
+  <LowWeightModIdModifier>1</LowWeightModIdModifier>
+  <MediumWeightModIdSpawnGroups>19</MediumWeightModIdSpawnGroups>
+  <MediumWeightModIdModifier>2</MediumWeightModIdModifier>
+  <HighWeightModIdSpawnGroups>20</HighWeightModIdSpawnGroups>
+  <HighWeightModIdModifier>3</HighWeightModIdModifier>
+  <UseMaxNpcGrids>true</UseMaxNpcGrids>
+  <UseGlobalEventsTimers>true</UseGlobalEventsTimers>
+  <IgnorePlanetWhitelists>false</IgnorePlanetWhitelists>
+  <IgnorePlanetBlacklists>false</IgnorePlanetBlacklists>
+  <ThreatRefreshTimerMinimum>20</ThreatRefreshTimerMinimum>
+  <ThreatReductionHandicap>0</ThreatReductionHandicap>
+  <MaxGlobalNpcGrids>50</MaxGlobalNpcGrids>
+  <PlayerWatcherTimerTrigger>10</PlayerWatcherTimerTrigger>
+  <NpcDistanceCheckTimerTrigger>1</NpcDistanceCheckTimerTrigger>
+  <NpcOwnershipCheckTimerTrigger>10</NpcOwnershipCheckTimerTrigger>
+  <NpcCleanupCheckTimerTrigger>60</NpcCleanupCheckTimerTrigger>
+  <NpcBlacklistCheckTimerTrigger>5</NpcBlacklistCheckTimerTrigger>
+  <SpawnedVoxelCheckTimerTrigger>900</SpawnedVoxelCheckTimerTrigger>
+  <SpawnedVoxelMinimumGridDistance>1000</SpawnedVoxelMinimumGridDistance>
+  <PlanetSpawnsDisableList>
+    <string>Planet_SubtypeId_Here</string>
+    <string>Planet_SubtypeId_Here</string>
+  </PlanetSpawnsDisableList>
+  <NpcGridNameBlacklist>
+    <string>BlackList_Grid_Name_Here</string>
+    <string>BlackList_Grid_Name_Here</string>
+  </NpcGridNameBlacklist>
+  <NpcSpawnGroupBlacklist>
+    <string>BlackList_SpawnGroup_Here</string>
+    <string>BlackList_SpawnGroup_Here</string>
+  </NpcSpawnGroupBlacklist>
+  <WeaponReplacerBlacklist>
+    <string>1380830774</string>
+    <string>Large_SC_LaserDrill_HiddenStatic</string>
+    <string>Large_SC_LaserDrill_HiddenTurret</string>
+    <string>Large_SC_LaserDrill</string>
+    <string>Large_SC_LaserDrillTurret</string>
+    <string>Spotlight_Turret_Large</string>
+    <string>Spotlight_Turret_Light_Large</string>
+    <string>Spotlight_Turret_Small</string>
+    <string>SmallSpotlight_Turret_Small</string>
+    <string>ShieldChargerBase_Large</string>
+    <string>LDualPulseLaserBase_Large</string>
+    <string>AegisLargeBeamBase_Large</string>
+    <string>AegisMediumeamBase_Large</string>
+    <string>XLGigaBeamGTFBase_Large</string>
+    <string>XLDualPulseLaserBase_Large</string>
+    <string>1817300677</string>
+  </WeaponReplacerBlacklist>
+  <WeaponReplacerWhitelist />
+  <WeaponReplacerTargetBlacklist />
+  <WeaponReplacerTargetWhitelist />
+  <UseGlobalBlockReplacer>false</UseGlobalBlockReplacer>
+  <GlobalBlockReplacerReference />
+  <GlobalBlockReplacerProfiles />
+  <UseNonPhysicalAmmoForNPCs>false</UseNonPhysicalAmmoForNPCs>
+  <RemoveContainerInventoryFromNPCs>false</RemoveContainerInventoryFromNPCs>
+  <UseEconomyBuyingReputationIncrease>true</UseEconomyBuyingReputationIncrease>
+  <EconomyBuyingReputationCostAmount>500000</EconomyBuyingReputationCostAmount>
+</BlockReplacementReference>

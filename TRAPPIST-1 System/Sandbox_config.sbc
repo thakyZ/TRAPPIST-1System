@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_WorldConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Settings xsi:type="MyObjectBuilder_SessionSettings">
-    <GameMode>Survival</GameMode>
-    <InventorySizeMultiplier>3</InventorySizeMultiplier>
-    <BlocksInventorySizeMultiplier>1</BlocksInventorySizeMultiplier>
-    <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
-    <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
-    <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
-    <OnlineMode>OFFLINE</OnlineMode>
+    <GameMode>Creative</GameMode>
+    <InventorySizeMultiplier>10</InventorySizeMultiplier>
+    <BlocksInventorySizeMultiplier>10</BlocksInventorySizeMultiplier>
+    <AssemblerSpeedMultiplier>10</AssemblerSpeedMultiplier>
+    <AssemblerEfficiencyMultiplier>10</AssemblerEfficiencyMultiplier>
+    <RefinerySpeedMultiplier>10</RefinerySpeedMultiplier>
+    <OnlineMode>PUBLIC</OnlineMode>
     <MaxPlayers>4</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <MaxBackupSaves>5</MaxBackupSaves>
-    <MaxGridSize>50000</MaxGridSize>
-    <MaxBlocksPerPlayer>100000</MaxBlocksPerPlayer>
+    <MaxGridSize>0</MaxGridSize>
+    <MaxBlocksPerPlayer>0</MaxBlocksPerPlayer>
     <TotalPCU>100000</TotalPCU>
     <PiratePCU>50000</PiratePCU>
     <MaxFactionsCount>0</MaxFactionsCount>
-    <BlockLimitsEnabled>GLOBALLY</BlockLimitsEnabled>
+    <BlockLimitsEnabled>NONE</BlockLimitsEnabled>
     <EnableRemoteBlockRemoval>true</EnableRemoteBlockRemoval>
     <EnvironmentHostility>SAFE</EnvironmentHostility>
     <AutoHealing>true</AutoHealing>
@@ -25,17 +25,17 @@
     <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
     <ThrusterDamage>true</ThrusterDamage>
     <CargoShipsEnabled>false</CargoShipsEnabled>
-    <EnableSpectator>true</EnableSpectator>
+    <EnableSpectator>false</EnableSpectator>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>false</RespawnShipDelete>
     <ResetOwnership>false</ResetOwnership>
-    <WelderSpeedMultiplier>2</WelderSpeedMultiplier>
-    <GrinderSpeedMultiplier>2</GrinderSpeedMultiplier>
+    <WelderSpeedMultiplier>5</WelderSpeedMultiplier>
+    <GrinderSpeedMultiplier>5</GrinderSpeedMultiplier>
     <RealisticSound>true</RealisticSound>
-    <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
+    <HackSpeedMultiplier>1</HackSpeedMultiplier>
     <PermanentDeath>false</PermanentDeath>
     <AutoSaveInMinutes>5</AutoSaveInMinutes>
-    <EnableSaving>false</EnableSaving>
+    <EnableSaving>true</EnableSaving>
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
@@ -43,7 +43,7 @@
     <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
-    <ViewDistance>20000</ViewDistance>
+    <ViewDistance>15000</ViewDistance>
     <EnableToolShake>true</EnableToolShake>
     <VoxelGeneratorVersion>4</VoxelGeneratorVersion>
     <EnableOxygen>true</EnableOxygen>
@@ -58,7 +58,7 @@
     <Scenario>false</Scenario>
     <CanJoinRunning>false</CanJoinRunning>
     <PhysicsIterations>8</PhysicsIterations>
-    <SunRotationIntervalMinutes>60</SunRotationIntervalMinutes>
+    <SunRotationIntervalMinutes>119.999992</SunRotationIntervalMinutes>
     <EnableJetpack>true</EnableJetpack>
     <SpawnWithTools>false</SpawnWithTools>
     <StartInRespawnScreen>false</StartInRespawnScreen>
@@ -83,22 +83,22 @@
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>true</EnableVoxelHand>
     <RemoveOldIdentitiesH>0</RemoveOldIdentitiesH>
-    <TrashRemovalEnabled>true</TrashRemovalEnabled>
+    <TrashRemovalEnabled>false</TrashRemovalEnabled>
     <StopGridsPeriodMin>15</StopGridsPeriodMin>
-    <TrashFlagsValue>7706</TrashFlagsValue>
+    <TrashFlagsValue>1562</TrashFlagsValue>
     <AFKTimeountMin>0</AFKTimeountMin>
     <BlockCountThreshold>20</BlockCountThreshold>
     <PlayerDistanceThreshold>500</PlayerDistanceThreshold>
     <OptimalGridCount>0</OptimalGridCount>
     <PlayerInactivityThreshold>0</PlayerInactivityThreshold>
     <PlayerCharacterRemovalThreshold>15</PlayerCharacterRemovalThreshold>
-    <VoxelTrashRemovalEnabled>false</VoxelTrashRemovalEnabled>
+    <VoxelTrashRemovalEnabled>true</VoxelTrashRemovalEnabled>
     <VoxelPlayerDistanceThreshold>5000</VoxelPlayerDistanceThreshold>
     <VoxelGridDistanceThreshold>5000</VoxelGridDistanceThreshold>
     <VoxelAgeThreshold>24</VoxelAgeThreshold>
     <EnableResearch>true</EnableResearch>
-    <EnableGoodBotHints>true</EnableGoodBotHints>
-    <OptimalSpawnDistance>900</OptimalSpawnDistance>
+    <EnableGoodBotHints>false</EnableGoodBotHints>
+    <OptimalSpawnDistance>16000</OptimalSpawnDistance>
     <EnableAutorespawn>true</EnableAutorespawn>
     <EnableBountyContracts>true</EnableBountyContracts>
     <EnableSupergridding>false</EnableSupergridding>
@@ -273,10 +273,6 @@
     <ModItem FriendlyName="Missing Slopes, Blocks And Windows">
       <Name>1937888528.sbm</Name>
       <PublishedFileId>1937888528</PublishedFileId>
-    </ModItem>
-    <ModItem FriendlyName="Midspace's Configurable Max Ship Speed Mod">
-      <Name>599536562.sbm</Name>
-      <PublishedFileId>599536562</PublishedFileId>
     </ModItem>
     <ModItem FriendlyName="Micro Programmable Block">
       <Name>401530181.sbm</Name>
@@ -578,7 +574,7 @@
       <Name>1635515407.sbm</Name>
       <PublishedFileId>1635515407</PublishedFileId>
     </ModItem>
-    <ModItem FriendlyName="WeaponCore - 1.0(38)">
+    <ModItem FriendlyName="WeaponCore - 1.0(39)">
       <Name>1918681825.sbm</Name>
       <PublishedFileId>1918681825</PublishedFileId>
     </ModItem>

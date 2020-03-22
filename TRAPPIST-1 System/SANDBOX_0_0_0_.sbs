@@ -10,8 +10,8 @@
   </SectorEvents>
   <AppVersion>1194080</AppVersion>
   <Environment>
-    <SunAzimuth>-0.502843</SunAzimuth>
-    <SunElevation>0.789207757</SunElevation>
+    <SunAzimuth>-0.5028429</SunAzimuth>
+    <SunElevation>0.7892078</SunElevation>
     <SunIntensity>0</SunIntensity>
     <FogMultiplier>0</FogMultiplier>
     <FogDensity>0.003</FogDensity>
@@ -21,6 +21,7 @@
   <VoxelHandVolumeChanged>0</VoxelHandVolumeChanged>
   <SectorObjects>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>-6212555342186026731</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>EarthLike-228658873d120000--6212555342186026731</Name>
@@ -106,6 +107,7 @@
       <Seed>228658873</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>9046060342512197199</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Bylen-1771348221d500000-9046060342512197199</Name>
@@ -191,6 +193,7 @@
       <Seed>1771348221</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>5344752091111530950</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Alien-2135250890d110000-5344752091111530950</Name>
@@ -276,6 +279,7 @@
       <Seed>2135250890</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>3030889540325238621</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Titan-755970646d64000-3030889540325238621</Name>
@@ -361,6 +365,7 @@
       <Seed>755970646</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>7083529687723584122</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Dwate-1827947536d50000-7083529687723584122</Name>
@@ -446,6 +451,7 @@
       <Seed>1827947536</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>1144153479501310510</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Triton-1135205520d100000-1144153479501310510</Name>
@@ -531,6 +537,7 @@
       <Seed>1135205520</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>-4675730563358418061</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Moon-864041354d30000--4675730563358418061</Name>
@@ -616,6 +623,7 @@
       <Seed>864041354</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>2586924210232661657</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Europa-700271130d50000-2586924210232661657</Name>
@@ -701,6 +709,7 @@
       <Seed>700271130</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>4331360184474451517</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Paradise-2092243795d240000-4331360184474451517</Name>
@@ -997,6 +1006,7 @@
       <Seed>2092243795</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>-8163563349297843173</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Mars-1279458484d130000--8163563349297843173</Name>
@@ -1082,6 +1092,7 @@
       <Seed>1279458484</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>7608441873637976722</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Demus-1047600796d500000-7608441873637976722</Name>
@@ -1167,6 +1178,7 @@
       <Seed>1047600796</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>1049548835171827268</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Rai-1650674343d30000-1049548835171827268</Name>
@@ -1252,6 +1264,7 @@
       <Seed>1650674343</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>-1574378784830581199</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Jericu-1358404127d50000--1574378784830581199</Name>
@@ -1337,6 +1350,7 @@
       <Seed>1358404127</Seed>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
       <EntityId>440372998761041393</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>Medieval-181414929d250000-440372998761041393</Name>

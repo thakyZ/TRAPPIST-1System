@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DragSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnableCharacterDrag>true</EnableCharacterDrag>
+  <DeflectionMult>100</DeflectionMult>
+  <AtmosphericMinimum>0</AtmosphericMinimum>
+  <RotationalDragMultiplier>100</RotationalDragMultiplier>
+  <advancedlift>false</advancedlift>
+  <SimulateWind>false</SimulateWind>
+  <mult>500</mult>
+  <radMult>400</radMult>
+  <heat>true</heat>
+  <digi>false</digi>
+  <EnableOcclusion>true</EnableOcclusion>
+</DragSettings>
